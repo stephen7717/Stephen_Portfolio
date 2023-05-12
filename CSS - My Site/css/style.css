@@ -1,0 +1,135 @@
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a {
+    color: #11999E;
+}
+p{
+    margin-bottom: 0px;
+}
+.top-container {
+    padding-top: 100px;
+    /*text-align: center;*/
+    background-color: #d1ebf8;
+    position: relative;
+    
+    
+ }
+.middle-container {
+    
+    background-color: #e9bff5;
+}
+.bottom-container {
+    
+    background-color: #ffcde4;
+    padding: 50px 0 50px 0;
+    
+}
+.bottom-container a {
+    margin: 0 30px;
+    text-align: center;
+}
+.bottom-container p {
+    margin-top: 40px;
+    text-align: center;
+}
+span {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: deeppink;
+    display: inline-block;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skills {
+    margin-top: 100px;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.webdev {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.comms {
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile {
+    line-height: 2;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 100px auto;
+}
+
+hr {
+    border-style: none;
+     border-top-style: dotted;
+     color: gray;
+     border-width: 5px;  
+     width: 5%;
+     
+     
+     
+}
+
+.contact-me {
+    padding: 50px 0 100px 0;
+    line-height: 2;
+}
+.cp {
+    margin-bottom: 50px;
+}
+.btn {
+    
+    background-color: #30e3cb;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #2bc4ad;
+   
+    text-decoration: none;
+  }
