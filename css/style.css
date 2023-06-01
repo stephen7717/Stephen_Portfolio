@@ -121,6 +121,7 @@ span {
 } 
 .skill_description{
     color: #f3f0fd;
+    font-size: 0.8rem;
 }
 .profile img{
     margin: 2rem auto 0 auto;
