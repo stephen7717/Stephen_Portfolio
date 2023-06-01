@@ -42,7 +42,7 @@ p{
  }
 .middle-container {
     margin-inline: auto;
-    max-width: 100rem;
+    max-width: 100%;
     background-color: #DCD6F7;
     padding-inline: 2rem;
     
