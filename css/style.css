@@ -87,7 +87,10 @@ p{
     left: 300px;
     bottom: 300px;
 }
-
+.mountain{
+    position: absolute;
+    bottom: 20px;
+}
 .skills {
     display: grid;
     gap: 1rem;
