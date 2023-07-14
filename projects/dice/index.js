@@ -18,12 +18,12 @@ var diceOne = Math.floor((Math.random()*6)+1);
 var diceTwo = Math.floor((Math.random()*6)+1);
 
 var randomDice = "dice" + diceOne +".png"; 
-var randomImage = ("./images/")+randomDice ;
+var randomImage = ("../images/")+randomDice ;
 var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomImage);
 
 var randomDice2 = "dice" + diceTwo +".png"; 
-var randomImage2 = ("./images/")+randomDice2;
+var randomImage2 = ("../images/")+randomDice2;
 var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImage2);
 
