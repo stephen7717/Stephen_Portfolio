@@ -704,11 +704,12 @@ hr {
     bottom: 5%;
     max-width: 100%;
     heigth: auto;
+    min-width: 100px;
   }
   .top-cloud {
       left: 5%;
     bottom: 5%;
-      max-width: 100%;
+    max-width: 100%;
     heigth: auto;
   }
 
