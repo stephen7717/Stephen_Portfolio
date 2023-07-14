@@ -699,8 +699,12 @@ hr {
   .profile_p {
     width: 90%;
   }
-
+.bottom-cloud {
+    right:10%
+    bottom: 200px;
+  }
   .bottom-cloud {
+      left:10%;
     bottom: 200px;
   }
 
