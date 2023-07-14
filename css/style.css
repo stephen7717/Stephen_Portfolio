@@ -702,10 +702,14 @@ hr {
 .bottom-cloud {
     right:10%
     bottom: 200px;
+    max-width:100%;
+    heigth:auto;
   }
   .top-cloud {
       left:10%;
     bottom: 200px;
+      max-width:100%;
+    heigth:auto;
   }
 
   .mountain {
