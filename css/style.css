@@ -700,15 +700,15 @@ hr {
     width: 90%;
   }
 .bottom-cloud {
-    right:5%;
+    right:30px;
     bottom: 5%;
     max-width: 100%;
     heigth: auto;
     min-width: 100px;
   }
   .top-cloud {
-      left: 20px;
-    bottom: 5%;
+    left: 3%;
+    top: 5%;
     max-width: 100%;
     heigth: auto;
     min-width: 100px;
@@ -717,6 +717,7 @@ hr {
   .mountain {
     bottom: 20%;
     max-width: 100%;
+    min-width: 250px;
     heigth: auto;
   }
     .profile img {
