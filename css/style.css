@@ -704,13 +704,14 @@ hr {
     bottom: 5%;
     max-width: 100%;
     heigth: auto;
-    min-width: 150px;
+    min-width: 100px;
   }
   .top-cloud {
-      left: 5%;
+      left: 3%;
     bottom: 5%;
     max-width: 100%;
     heigth: auto;
+    min-width: 100px;
   }
 
   .mountain {
