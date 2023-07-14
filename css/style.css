@@ -707,10 +707,11 @@ hr {
   .mountain {
     display: none;
   }
-}
-
-/* CSS to fix the profile image overlap */
-.profile img {
+    .profile img {
   max-width: 100%;
   height: auto;
 }
+}
+
+/* CSS to fix the profile image overlap */
+
