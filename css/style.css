@@ -682,3 +682,35 @@ hr {
                 transform: rotate(360deg);
             }
             
+/* Media Query for Phone View */
+@media (max-width: 480px) {
+  .top-container {
+    padding-top: 80px;
+  }
+
+  .main-header {
+    font-size: 3.5rem;
+  }
+
+  .topside {
+    font-size: 1.5rem;
+  }
+
+  .profile_p {
+    width: 90%;
+  }
+
+  .bottom-cloud {
+    bottom: 200px;
+  }
+
+  .mountain {
+    display: none;
+  }
+}
+
+/* CSS to fix the profile image overlap */
+.profile img {
+  max-width: 100%;
+  height: auto;
+}
