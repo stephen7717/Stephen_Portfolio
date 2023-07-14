@@ -1,6 +1,6 @@
 
 let backBtn = document.querySelector(".back-button").addEventListener("click",function(){
-    window.location.href = "/index.html";
+    window.location.href = "./index.html";
 });
 
 // this lines is for detecting button click / press
