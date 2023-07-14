@@ -683,7 +683,7 @@ hr {
             }
             
 /* Media Query for Phone View */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .top-container {
     padding-top: 80px;
   }
