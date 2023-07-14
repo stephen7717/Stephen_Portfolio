@@ -703,7 +703,7 @@ hr {
     right:10%
     bottom: 200px;
   }
-  .bottom-cloud {
+  .top-cloud {
       left:10%;
     bottom: 200px;
   }
@@ -716,6 +716,13 @@ hr {
   height: auto;
 }
 }
-
+@media (max-width: 600px) {
+    .bottom-cloud {
+    display:none;
+  }
+  .top-cloud {
+      display:none;
+  }
+}
 /* CSS to fix the profile image overlap */
 
