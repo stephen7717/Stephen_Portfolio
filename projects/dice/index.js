@@ -11,7 +11,7 @@ location.reload();
 }
 
 let backBtn = document.querySelector(".back-button").addEventListener("click",function(){
-    window.location.href = "./index.html";
+    window.location.href = "https://stephen7717.github.io/Stephen_Portfolio/";
 });
 
 var diceOne = Math.floor((Math.random()*6)+1);
