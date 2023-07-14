@@ -700,16 +700,16 @@ hr {
     width: 90%;
   }
 .bottom-cloud {
-    right:10%
-    bottom: 200px;
-    max-width:100%;
-    heigth:auto;
+    right:5%;
+    bottom: 5%;
+    max-width: 100%;
+    heigth: auto;
   }
   .top-cloud {
-      left:10%;
-    bottom: 200px;
-      max-width:100%;
-    heigth:auto;
+      left: 5%;
+    bottom: 5%;
+      max-width: 100%;
+    heigth: auto;
   }
 
   .mountain {
