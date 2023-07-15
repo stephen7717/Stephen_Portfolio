@@ -84,9 +84,9 @@ footer {
 }
 
 .back-button{
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
+  position: fixed;
+  left: 5%;
+  bottom: 5%;
   border-radius: 1.5rem;
   border: none;
   padding: 1.4rem;
