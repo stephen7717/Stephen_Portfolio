@@ -20,24 +20,20 @@ body {
 .header-two {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #f1f2f9;
+    color: #d5d8eb;
     font-weight: normal;
     
 }
 h3{
     font-family: 'Montserrat', sans-serif;
-    color: #DCD6F7;
+    color: #dbddee;
 }
-a {
-    color: #424874;
-}
-
 p{
     color: #e1e3f2;
     margin: 0 0 2em 0;
 }
 .prj-p{
-    color: #ffffff;
+    color: #e6e8f4;
 }
 .top-container {
     padding-top: 100px;
@@ -77,7 +73,7 @@ p{
 
 .top-cloud {
     
-    color: #DCD6F7;
+    color: #e6e8f4;
     position: absolute;
     left: 10%;
     top: 10%;
@@ -114,7 +110,7 @@ p{
     
     background-color: #54849e;
     border-radius: 8px;
-    color: #ffffff;
+    color: #e6e8f4;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
@@ -159,14 +155,13 @@ p{
               -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
               -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
               transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-              border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-              color: #ffffff;
+              color: #e6e8f4;
               text-decoration: none;
+              
           }
-      
               a:hover {
                   border-bottom-color: transparent;
-                  color: #ffffff !important;
+                  color: #aeb3cf !important;
               }
       
               a.special:not(.button) {
@@ -222,14 +217,13 @@ p{
                   }
       
           strong, b {
-              color: #ffffff;
+              color: #e6e8f4;
               font-weight: 600;
           }
       
           em, i {
               font-style: italic;
           }
-
           .image {
               border-radius: 5px;
               border: 0;
@@ -296,7 +290,7 @@ p{
       
               .features article {
                   padding: 1.75rem 1.75rem 0.1rem 1.75rem ;
-                  background-color: #716ea0;
+                  background-color: #26536b;
                   border-radius: 5px;
                   margin: 1.5rem 3rem 1.5rem 0;
                   width: calc(50% - 1.5rem);
