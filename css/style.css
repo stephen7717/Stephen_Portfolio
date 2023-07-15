@@ -173,8 +173,7 @@ p{
                   font-weight: 700;
                   letter-spacing: 0.1em;
                   text-transform: uppercase;
-                  position: relative;
-                  bottom: 15px;
+                  margin: 0 0 1em 0;
               }
       
                   a.special:not(.button):before {
