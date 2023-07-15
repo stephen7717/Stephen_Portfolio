@@ -42,9 +42,16 @@ button{
   position: fixed;
 right: 3%;
 bottom: 3%;
+ box-shadow: 0 9px #999;
 }
-.refresh:hover, .back-button:hover{
+.refresh:active {
+  background-color: #13998e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.refresh:hover{
   background: #62dbd1;
+  background: #22a59b;
 }
 .pressed{
   box-shadow: 0 4px 20px 0 #a2b3aa;
@@ -54,7 +61,15 @@ bottom: 3%;
 position: fixed;
 left: 3%;
 bottom: 3%;
-
+box-shadow: 0 9px #999;
+}
+.back-button:hover{
+    background: #22a59b;
+}
+.back-button:active {
+  background-color: #13998e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 @media (max-width: 700px) {
