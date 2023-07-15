@@ -1,579 +1,89 @@
-
-html:focus-within{
-    scroll-behavior: smooth;
-}
-.main-header {
-    margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    color: #e1e3f2;
-    
-}
-body {
-    line-height: 2;
-    text-align: center;
-    margin: 0px;
-    font-family: 'Merriweather Sans', sans-serif;
-    background-color: #0c212c;
-    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-.header-two {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #e1e3f2;
-    font-weight: normal;
-    
-}
-h3{
-    font-family: 'Montserrat', sans-serif;
-    color: #d7daf0;
-}
-p{
-    color: #e1e3f2;
-    margin: 0 0 2em 0;
-}
-.prj-p{
-    color: #e6e8f4;
-}
-.top-container {
-    padding-top: 100px;
-    color: #e6e8f4;
-    position: relative;
-    height: 100dvh;
-    
-    
- }
-.middle-container {
-    margin-inline: auto;
-    max-width: 100%;
-    padding-inline: 2rem;
-    
-}
-.bottom-container {
-    
-    padding: 50px 0 50px 0;
-    
-}
-.bottom-container a {
-    margin: 0 30px;
-    text-align: center;
-}
-.bottom-container p {
-    margin-top: 40px;
-    text-align: center;
-}
-.span-t {
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #999fc7;
-    display: inline-block;
-    
-}
-
-.top-cloud {
-    
-    color: #e6e8f4;
-    position: absolute;
-    left: 10%;
-    top: 10%;
-}
-.bottom-cloud {
-    position: absolute;
-    right:  5%;
-    bottom: 25%;
-    z-index: 1;
-}
-.mountain{
-    position: relative;
-    bottom: 10%;
-    
-}
-.profile img{
-    margin: 2rem auto 0 auto;
-}
-.profile_p{
-    line-height: 2;
-    text-align: center;
-    width: 60%;
-    margin: 2rem auto 5rem auto;
-}
-
-.contact-me {
-    padding: 10dvh 0 100px 0;
-    line-height: 2;
-}
-.cp {
-    margin-bottom: 50px;
-}
-.btn {
-    
-    background-color: #54849e;
-    border-radius: 8px;
-    color: #e6e8f4;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
   
-  .btn:hover {
-    background-color: #35647d;
-   
-    text-decoration: none;
-  }
+    <div class="top-container">
+      <a href="#" class="to-top">Back to top</a>
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1 class="main-header">I'm Stephen</h1>
+        <h2 class="topside">a <span class="span-t">web</span> Developer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class="mountain" src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile-container">
+        <div class="profile">
+          <img src="images/stephen.png" alt="stephen-image">
+          <h2 class="header-two">Hello World!</h2>
+          <p class="profile_p">I am an asprining web developer who recently graduated from the Technological Institute of the Philippines with a degree in Information Technology. With expertise in HTML, CSS, JavaScript, and other web technologies, I am passionate about creating innovative websites. Get in touch to collaborate on building the future of the web!</p>
+        </div>
+      </div>
+    
 
+        <section id="two" class="wrapper alt style1">
+          <div class="inner">
+            <h2 class="header-two">My Projects</h2>
+            <p>Intuitive interfaces and captivating aesthetics are prioritized in my work, which range from responsive designs to seamless user experiences. I develop beautiful and useful web solutions with an eye for aesthetics and a commitment to user-centric design.</p>
+            <section class="features">
+              <article>
+                <a href="./projects/dice/dicee.html" class="image"><img src="images/dice.jpg" alt="Dice" /></a>
+                <h3 class="major">Dice Game</h3>
+                <p class="prj-p">JavaScript game with random dice values for 2 players, winner is determined by whoever has higher value.</p>
+                <a href="./projects/dice/dicee.html" class="special">Preview</a>
+              </article>
+              <article>
+                <a href="./projects/drumkit/index.html" class="image"><img src="images/drumkit.jpg" alt="Drumkit" /></a>
+                <h3 class="major">Drum Kit</h3>
+                <p class="prj-p">A drum kit set made with JavaScript where you press or click the buttons to play the instruments</p>
+                <a href="./projects/drumkit/index.html" class="special">Preview</a>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/blogwebapp.png" alt="MyBlog" /></a>
+                <h3 class="major">Personal Blog Website</h3>
+                <p class="prj-p">A blog website where you can comment as a user and only browse the page as a default user and lastly, add,edit,delete a comment using the admin access </p>
+                <a href="#" class="special">Preview</a>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/notesapp.png" alt="NotesApp" /></a>
+                <h3 class="major">Notes Webapp Made with React & Laravel</h3>
+                <p class="prj-p">A notes app made with react for frontend and laravel for backend and used the API endpoints in laravel to connect the api through axios in react.</p>
+                <a href="#" class="special">Preview</a>
+              </article>
+            </section>
+            <ul class="actions">
+              <li><a href="#" class="button">Browse All</a></li>
+            </ul>
+          </div>
+        </section>
 
-    p.max-content {
-        width: max-content;
-      }
-      
-      p.min-content {
-        width: min-content;
-      }
-
-          @-ms-viewport {
-              width: device-width;
-          }
-      
-          body {
-              -ms-overflow-style: scrollbar;
-          }
-      
-      
-          html {
-              box-sizing: border-box;
-          }
-      
-          *, *:before, *:after {
-              box-sizing: inherit;
-          }
-         
-          a {
-              -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-              -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-              -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-              transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-              color: #e6e8f4;
-              text-decoration: none;
-              
-          }
-              a:hover {
-                  border-bottom-color: transparent;
-                  color: #aeb3cf !important;
-              }
-      
-              a.special:not(.button) {
-                  text-decoration: none;
-                  border-bottom: 0;
-                  display: block;
-                  font-family: Raleway, Helvetica, sans-serif;
-                  font-size: 0.8em;
-                  font-weight: 700;
-                  letter-spacing: 0.1em;
-                  margin: 0 0 2em 0;
-                  text-transform: uppercase;
-              }
-      
-                  a.special:not(.button):before {
-                      -moz-osx-font-smoothing: grayscale;
-                      -webkit-font-smoothing: antialiased;
-                      display: inline-block;
-                      font-style: normal;
-                      font-variant: normal;
-                      text-rendering: auto;
-                      line-height: 1;
-                      text-transform: none !important;
-                      font-family: 'Font Awesome 5 Free';
-                      font-weight: 900;
-                  }
-      
-                  a.special:not(.button):before {
-                      -moz-transition: background-color 0.2s ease-in-out;
-                      -webkit-transition: background-color 0.2s ease-in-out;
-                      -ms-transition: background-color 0.2s ease-in-out;
-                      transition: background-color 0.2s ease-in-out;
-                      border-radius: 100%;
-                      border: solid 2px rgba(255, 255, 255, 0.125);
-                      content: '\f105';
-                      display: inline-block;
-                      font-size: 1.25em;
-                      height: 2em;
-                      line-height: 1.75em;
-                      margin-right: 0.85em;
-                      text-align: center;
-                      text-indent: 0.15em;
-                      vertical-align: middle;
-                      width: 2em;
-                  }
-      
-                  a.special:not(.button):hover:before {
-                      background-color: rgba(255, 255, 255, 0.025);
-                  }
-      
-                  a.special:not(.button):active:before {
-                      background-color: rgba(255, 255, 255, 0.075);
-                  }
-      
-          strong, b {
-              color: #e6e8f4;
-              font-weight: 600;
-          }
-      
-          em, i {
-              font-style: italic;
-          }
-          .image {
-              border-radius: 5px;
-              border: 0;
-              display: inline-block;
-              position: relative;
-          }
-      
-              .image img {
-                  border-radius: 5px;
-                  display: block;
-              }
-      
-              .image.left, .image.right {
-                  max-width: 40%;
-              }
-      
-                  .image.left img, .image.right img {
-                      width: 100%;
-                  }
-      
-              .image.left {
-                  float: left;
-                  padding: 0 1.5em 1em 0;
-                  top: 0.25em;
-              }
-      
-              .image.right {
-                  float: right;
-                  padding: 0 0 1em 1.5em;
-                  top: 0.25em;
-              }
-      
-              .image.fit {
-                  display: block;
-                  margin: 0 0 2em 0;
-                  width: 100%;
-              }
-      
-                  .image.fit img {
-                      width: 100%;
-                  }
-      
-              .image.main {
-                  display: block;
-                  margin: 0 0 3em 0;
-                  width: 100%;
-              }
-      
-                  .image.main img {
-                      width: 100%;
-                  }
- 
-          .features {
-              display: -moz-flex;
-              display: -webkit-flex;
-              display: -ms-flex;
-              display: flex;
-              -moz-flex-wrap: wrap;
-              -webkit-flex-wrap: wrap;
-              -ms-flex-wrap: wrap;
-              flex-wrap: wrap;
-              margin: 0 0 2rem 0;
-          }
-      
-              .features article {
-                  padding: 1.75rem 1.75rem 0.1rem 1.75rem ;
-                  background-color: #26536b;
-                  border-radius: 5px;
-                  margin: 1.5rem 3rem 1.5rem 0;
-                  width: calc(50% - 1.5rem);
-              }
-      
-                  .features article:nth-child(2n) {
-                      margin-right: 0;
-                  }
-      
-                  .features article .image {
-                      border-radius: 5px 5px 0 0;
-                      display: block;
-                      margin-bottom: 1.75rem;
-                      margin-left: -1.75rem;
-                      margin-top: -1.75rem;
-                      position: relative;
-                      width: calc(100% + 3.5rem);
-                  }
-      
-                      .features article .image img {
-                          border-radius: 5px 5px 0 0;
-                          width: 100%;
-                      }
-      
-              @media screen and (max-width: 980px) {
-      
-                  .features article {
-                      margin: 1em 2em 1em 0;
-                      width: calc(50% - 1em);
-                  }
-      
-              }
-      
-              @media screen and (max-width: 736px) {
-      
-                  .features article {
-                      padding: 1.5em 1.5em 0.1em 1.5em ;
-                      margin: 0.875em 1.75em 0.875em 0;
-                      width: calc(50% - 0.875em - 1px);
-                  }
-      
-                      .features article .image {
-                          margin-bottom: 1.5em;
-                          margin-left: -1.5em;
-                          margin-top: -1.5em;
-                          width: calc(100% + 3em);
-                      }
-              }
-      
-              @media screen and (max-width: 480px) {
-      
-                  .features {
-                      display: block;
-                  }
-      
-                      .features article {
-                          width: 100%;
-                          margin: 0 0 2em 0 !important;
-                      }
-      
-              }
-      
-      /* Wrapper */
-  
-          .wrapper {
-              margin: 6.5em 0;
-              position: relative;
-              
-              
-          }
-      
-              .wrapper:before, .wrapper:after {
-                  background-repeat: no-repeat;
-                  background-size: 100% 100%;
-                  content: '';
-                  display: block;
-                  height: 6.5em;
-                  position: absolute;
-                  width: 100%;
-                  
-              }
-      
-              .wrapper:before {
-                  left: 0;
-                  top: -6.5em;
-              }
-      
-              .wrapper:after {
-                  -moz-transform: scaleY(-1);
-                  -webkit-transform: scaleY(-1);
-                  -ms-transform: scaleY(-1);
-                  transform: scaleY(-1);
-                  bottom: -6.5em;
-                  left: 0;
-              }
-      
-              .wrapper.alt:before {
-                  -moz-transform: scaleX(-1);
-                  -webkit-transform: scaleX(-1);
-                  -ms-transform: scaleX(-1);
-                  transform: scaleX(-1);
-              }
-      
-              .wrapper.alt:after {
-                  -moz-transform: scaleY(-1) scaleX(-1);
-                  -webkit-transform: scaleY(-1) scaleX(-1);
-                  -ms-transform: scaleY(-1) scaleX(-1);
-                  transform: scaleY(-1) scaleX(-1);
-              }
-      
-              .wrapper .inner {
-                  padding: 3em 0 1em 0 ;
-                  margin: 0 auto;
-                  width: 55em;
-              }
-      
-             @media screen and (max-width: 980px) {
-      
-                  .wrapper {
-                      margin: 4.75em 0;
-                  }
-      
-                      .wrapper:before, .wrapper:after {
-                          height: 4.75em;
-                      }
-      
-                      .wrapper:before {
-                          top: -4.75em;
-                      }
-      
-                      .wrapper:after {
-                          bottom: -4.75em;
-                          left: 0;
-                      }
-      
-                      .wrapper .inner {
-                          padding: 3em 3em 1em 3em ;
-                          width: 100%;
-                      }
-      
-                      .wrapper.spotlight .image {
-                          margin: 0 2em 2em 0;
-                          width: 32em;
-                      }
-      
-                      .wrapper.spotlight:nth-child(2n - 1) .image {
-                          margin: 0 0 2em 2em;
-                      }
-      
-              }
-      
-              @media screen and (max-width: 736px) {
-      
-                  .wrapper {
-                      margin: 2.5em 0;
-                  }
-      
-                      .wrapper:before, .wrapper:after {
-                          height: 2.5em;
-                      }
-      
-                      .wrapper:before {
-                          top: -2.5em;
-                      }
-      
-                      .wrapper:after {
-                          bottom: -2.5em;
-                          left: 0;
-                      }
-      
-                      .wrapper .inner {
-                          padding: 2em 2em 0.1em 2em ;
-                      }
-      
-                      .wrapper.spotlight .inner {
-                          -moz-align-items: -moz-flex-start;
-                          -webkit-align-items: -webkit-flex-start;
-                          -ms-align-items: -ms-flex-start;
-                          align-items: flex-start;
-                      }
-      
-                      .wrapper.spotlight .image {
-                          width: 19em;
-                          margin: 0 1.75em 2em 0;
-                      }
-      
-                      .wrapper.spotlight:nth-child(2n - 1) .image {
-                          margin: 0 0 2em 1.75em;
-                      }
-      
-              }
-      
-              @media screen and (max-width: 480px) {
-      
-                  .wrapper.spotlight .inner {
-                      display: block;
-                  }
-      
-                  .wrapper.spotlight .image {
-                      margin: 0 0 1em 0 !important;
-                      max-width: 85%;
-                      width: 12em;
-                  }
-      
-              }
-      
-              @media screen and (max-width: 360px) {
-      
-                  .wrapper .inner {
-                      padding: 2em 1.5em 0.1em 1.5em ;
-                  }
-      
-              }
-              .to-top{
-                color:#fff9f9;
-                padding-top:1em;
-                display:inline-block;/* or block */
-                position:fixed;
-                border-color:rgb(33, 32, 32);
-                text-decoration:none;
-                transition:all .3s ease-out;
-                right: 10px;
-                bottom: 10px;
-                z-index: 2;
-                font-size: 1.2rem;
-            }
-            .to-top:before{
-                content:'▲';
-                font-size: 1.2rem;
-                position:absolute;
-                top:0;
-                left:50%;
-                margin-left:-.7em;
-                border:solid .13em rgb(47, 44, 44);
-                border-radius:10em;
-                width:1.4rem;
-                height:1.4rem;
-                line-height:1.3rem;
-                border-color:inherit;
-                transition:transform .5s ease-in;
-            }
-            .to-top:hover{
-                color:rgb(95, 80, 80);
-                border-color:rgb(87, 76, 76);
-            }
-            .to-top:hover:before{
-                transform: rotate(360deg);
-            }
-            
-/* Media Query for Phone View */
-@media (max-width: 680px) {
-  .top-container {
-    padding-top: 80px;
-  }
-
-  .main-header {
-    font-size: 3.5rem;
-  }
-
-  .profile_p {
-    width: 90%;
-  }
-.bottom-cloud {
-    right:2%;
-    bottom: 45%;
-    max-width: 100%;
-    heigth: auto;
-  }
-  .top-cloud {
-    left: 5%;
-    bottom: 5%;
-    max-width: 100%;
-    heigth: auto;
-  }
-
-  .mountain {
-    position: relative;
-    bottom: 5%;
-    max-width: 100%;
-    heigth: auto;
-  }
-    .profile img {
-  max-width: 100%;
-  height: auto;
-}
-}   
+    </section>
+        <div class="contact-me">
+          <h2 class="header-two">Get In Touch</h2>
+          <h3>If you want to connect with me.</h3>
+          <p class="cp">Like what you see? Reach out to me and let's get down to business! </p>
+          <a class="btn" href="STEPHEN_DELIMA_CV.pdf" download>Download my CV</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/stephen-delima-309b8b183/">LinkedIn</a>
+        <a class="footer-link" href="https://www.facebook.com/stephen.justine2">Facebook</a>
+        <p>© Stephen Delima.</p>
+      </div>
+      
+    
+<script src="index.js"></script>
+</body>
+</html>
