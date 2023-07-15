@@ -6,7 +6,7 @@ html:focus-within{
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
-    color: #424874;
+    color: #e1e3f2;
     
 }
 body {
@@ -14,11 +14,13 @@ body {
     text-align: center;
     margin: 0px;
     font-family: 'Merriweather Sans', sans-serif;
+    background-color: #0c212c;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
 .header-two {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #e07aee;
+    color: #f1f2f9;
     font-weight: normal;
     
 }
@@ -30,9 +32,8 @@ a {
     color: #424874;
 }
 
-
 p{
-    color: #ffffff;
+    color: #e1e3f2;
     margin: 0 0 2em 0;
 }
 .prj-p{
@@ -40,7 +41,7 @@ p{
 }
 .top-container {
     padding-top: 100px;
-    background-color: #D4ADFC;
+    color: #e6e8f4;
     position: relative;
     height: 100dvh;
     
@@ -49,13 +50,11 @@ p{
 .middle-container {
     margin-inline: auto;
     max-width: 100%;
-    background-color: #5C469C;
     padding-inline: 2rem;
     
 }
 .bottom-container {
     
-    background-color: #0C134F;
     padding: 50px 0 50px 0;
     
 }
@@ -71,85 +70,37 @@ p{
     text-decoration: underline;
     text-transform: uppercase;
     font-weight: bold;
-    color: deeppink;
+    color: #999fc7;
     display: inline-block;
+    
 }
 
 .top-cloud {
     
     color: #DCD6F7;
     position: absolute;
-    right: 300px;
-    top: 50px;
+    left: 10%;
+    top: 10%;
 }
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    right:  5%;
+    bottom: 25%;
+    z-index: 1;
 }
 .mountain{
-    position: absolute;
-    bottom: 5%;
-}
-.skills {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-}
-
-.skill {
-    aspect-ratio: 1 / 1.5;
-  }
-  
-  .stacked{
-    display: grid;
-  }
-  .stacked > *{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-  }
-.imgbox{
-    width: 100%;
-    aspect-ratio: 1 / 1.25;
-    object-fit: cover;
-}
-
-.skill-content{
-    background-color: #424874;
-    align-self: end;
-    margin: 8rem 0.5rem 0.5rem;
-    padding: 0.5rem;
-    box-shadow: 0 1rem 2rem rgb(0 0 0 / 0.1);
-}
-.skill_title{
-    margin: .6rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 1;
-} 
-.skill_description{
-    font-size: 1rem;
-    color: #f3f0fd;
+    position: relative;
+    bottom: 10%;
+    
 }
 .profile img{
     margin: 2rem auto 0 auto;
 }
-
-
 .profile_p{
     line-height: 2;
     text-align: center;
     width: 60%;
     margin: 2rem auto 5rem auto;
-}
-
-hr {
-    border-style: none;
-     border-top-style: dotted;
-     color: gray;
-     border-width: 5px;  
-     width: 5%;
-     
 }
 
 .contact-me {
@@ -161,32 +112,22 @@ hr {
 }
 .btn {
     
-    background-color: #ca58c8;
+    background-color: #54849e;
     border-radius: 8px;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    border: none;
+    cursor: pointer;
   }
   
   .btn:hover {
-    background-color: #c976b2;
+    background-color: #35647d;
    
     text-decoration: none;
   }
 
-  @media (min-width: 60em) {
-    .imgbox {
-      aspect-ratio: 1 / 1;
-    }
-    .skill.featured {
-        grid-row: span 2;
-        grid-column: span 2;
-      }
-      .skill.featured .imgbox {
-        aspect-ratio: 1 / 1.25;
-      }
-    }
 
     p.max-content {
         width: max-content;
@@ -196,57 +137,6 @@ hr {
         width: min-content;
       }
 
-      @import url(fontawesome-all.min.css);
-      @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
-
-    
-      
-      article, aside, details, figcaption, figure,
-      footer, header, hgroup, menu, nav, section {
-          display: block;}
-      
-
-      ol, ul {
-          list-style: none;
-      }
-      
-      blockquote, q {
-          quotes: none;
-      }
-      
-          blockquote:before, blockquote:after, q:before, q:after {
-              content: '';
-              content: none;
-          }
-      
-      table {
-          border-collapse: collapse;
-          border-spacing: 0;
-      }
-      
-      body {
-          -webkit-text-size-adjust: none;
-      }
-      
-      mark {
-          background-color: transparent;
-          color: inherit;
-      }
-      
-      input::-moz-focus-inner {
-          border: 0;
-          padding: 0;
-      }
-      
-      input, select, textarea {
-          -moz-appearance: none;
-          -webkit-appearance: none;
-          -ms-appearance: none;
-          appearance: none;
-      }
-      
-      /* Basic */
-      
           @-ms-viewport {
               width: device-width;
           }
@@ -263,14 +153,7 @@ hr {
           *, *:before, *:after {
               box-sizing: inherit;
           }
-      
          
-      
-      /* Type */
-      
-         
-      
-             
           a {
               -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
               -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -346,27 +229,7 @@ hr {
           em, i {
               font-style: italic;
           }
-      
-         
-    
-      
-              h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-                  color: inherit;
-                  text-decoration: none;
-                  border-bottom: 0;
-              }
-      
-              h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
-                  font-weight: 200;
-              }
-      
-              h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-                  padding-bottom: 1em;
-                  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-              }
-      
-      /* Image */
-      
+
           .image {
               border-radius: 5px;
               border: 0;
@@ -418,10 +281,7 @@ hr {
                   .image.main img {
                       width: 100%;
                   }
-      
-    
-      /* Features */
-      
+ 
           .features {
               display: -moz-flex;
               display: -webkit-flex;
@@ -502,9 +362,10 @@ hr {
       /* Wrapper */
   
           .wrapper {
-            background-image: linear-gradient(to right, #1D267D , #1D267D);
               margin: 6.5em 0;
               position: relative;
+              
+              
           }
       
               .wrapper:before, .wrapper:after {
@@ -659,7 +520,7 @@ hr {
                 transition:all .3s ease-out;
                 right: 10px;
                 bottom: 10px;
-                z-index: 1;
+                z-index: 2;
                 font-size: 1.2rem;
             }
             .to-top:before{
@@ -686,7 +547,7 @@ hr {
             }
             
 /* Media Query for Phone View */
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .top-container {
     padding-top: 80px;
   }
@@ -695,39 +556,30 @@ hr {
     font-size: 3.5rem;
   }
 
-  .topside {
-    font-size: 1.5rem;
-  }
-
   .profile_p {
     width: 90%;
   }
 .bottom-cloud {
     right:2%;
+    bottom: 45%;
+    max-width: 100%;
+    heigth: auto;
+  }
+  .top-cloud {
+    left: 5%;
     bottom: 5%;
     max-width: 100%;
     heigth: auto;
-    min-width: 100px;
-  }
-  .top-cloud {
-    left: 3%;
-    top: 5%;
-    max-width: 100%;
-    heigth: auto;
-    min-width: 100px;
   }
 
   .mountain {
-    bottom: 7%;
+    position: relative;
+    bottom: 5%;
     max-width: 100%;
-    min-width: 250px;
     heigth: auto;
   }
     .profile img {
   max-width: 100%;
   height: auto;
 }
-}
-
-/* CSS to fix the profile image overlap */
-
+}   
