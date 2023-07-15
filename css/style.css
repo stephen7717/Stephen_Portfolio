@@ -81,7 +81,7 @@ p{
 .bottom-cloud {
     position: absolute;
     right:  5%;
-    bottom: 25%;
+    bottom: 45%;
     z-index: 1;
 }
 .mountain{
@@ -554,14 +554,14 @@ p{
     width: 90%;
   }
 .bottom-cloud {
-    right:2%;
+    right:5%;
     bottom: 45%;
     max-width: 100%;
     heigth: auto;
   }
   .top-cloud {
     left: 5%;
-    bottom: 5%;
+    top: 10%;
     max-width: 100%;
     heigth: auto;
   }
